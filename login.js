@@ -1,7 +1,7 @@
 const fs = require("fs");
 const login = require("fca-horizon-remake");
 
-var credentials = {email: "shak.ib.md29.18@gmail.com", password: "MASHIA#$403"}; // credential information
+var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // credential information
 
 login(credentials, (err, api) => {
     if(err) return console.error(err);
