@@ -1,6 +1,6 @@
 {
-	"name": "ASIF",
-	"version": "7.3.1",
+	"name": "Unknown",
+	"version": "10.6.9",
 	"description": "A simple Facebook Messenger Bot mod by 𝐀𝐒𝐈𝐅 𝐱𝟔𝟗",
 	"main": "𝐀𝐒𝐈𝐅 𝐱𝟔𝟗",
 	"scripts": {
@@ -10,11 +10,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/siegfriedsama/Siegfried-Sama/issues"
+		"url": "https://github.com/ASIF-404-CYBER/fb-bot/issues"
 	},
 	"keywords": [
 		"bot",
 		"facebook",
+    "ASIFx69",
+    "Asif",
+    "fb-bot",
 		"projectmirai",
 		"messenger",
 		"mirai",
@@ -22,12 +25,12 @@
 		"spermlord",
 		"miraipr0ject"
 	],
-	"author": "Siegfried Sama",
+	"author": "ASIF x69",
 	"license": "GPL-3.0",
 	"bugs": {
-		"url": "https://github.com/siegfriedsama/Siegfried-Sama/issues"
+		"url": "https://github.com/ASIF-404-CYBER/fb-bot/issues"
 	},
-	"homepage": "https://github.com/siegfriedsama/Siegfried-Sama/issues",
+	"homepage": "https://github.com/ASIF-404-CYBER/fb-bot/issues",
 	"dependencies": {
 		"@maihuybao/fca-unofficial": "^1.3.13-2",
 		"@miraipr0ject/assets": "",
