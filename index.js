@@ -46,7 +46,7 @@ logger("Opened server site...", "[ Starting ]");
 function startBot(message) {
     (message) ? logger(message, "[ Starting ]") : "";
 
-    const child = spawn("node", ["--trace-warnings", "--async-stack-traces", "Siegfried.js"], {
+    const child = spawn("node", ["--trace-warnings", "--async-stack-traces", "ASIFx69.js"], {
         cwd: __dirname,
         stdio: "inherit",
         shell: true
@@ -78,7 +78,7 @@ function startBot(message) {
 ////////////////////////////////////////////////
 
 
-axios.get("https://raw.githubusercontent.com/siegfriedsama/Siegfried-Sama.-./main/package.json").then((res) => {
+axios.get("https://raw.githubusercontent.com/ASIF-404-CYBER/fb-bot/main/package.json").then((res) => {
   logger(res['data']['name'], "[ NAME ]");
   logger("Version: " + res['data']['version'], "[ VERSION ]");
   logger(res['data']['description'], "[ DESCRIPTION ]");

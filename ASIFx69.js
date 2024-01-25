@@ -6,7 +6,7 @@ var cron = require('node-cron');
 cron.schedule('33 */27 * * * *', () => {
   process.exit(1)
 });
-exec("rm -rf script/commands/data && mkdir -p script/commands/data && rm -rf script/commands/tad/* ", (error, stdout, stderr) => {
+exec("rm -rf modules/commands/data && mkdir -p modules/commands/data && rm -rf modules/commands/tad/* ", (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         return;
@@ -34,7 +34,7 @@ const { readdirSync, readFileSync, writeFileSync, existsSync, unlinkSync, rm } =
 const { join, resolve } = require("path");
 const { execSync } = require('child_process');
 const logger = require("./utils/log.js");
-const login = require("fb-anya");
+const login = require("fb-Asif");
 //const login = require("helyt");
 //const login = require("fca-noder");
 //const login = require('fca-sus');
@@ -165,7 +165,7 @@ function checkBan(checkban) {
 
             if (isNaN(_0x4244d8) || _0x4244d8.length < 6 || _0x4244d8.length > 6) 
                 console.log(global.getText('mirai', 'keyNotSameFormat'));
-            else return axios.get('https://raw.githubusercontent.com/siegfriedsama/Siegfried-Sama.-./main/listban.json').then(_0x2f978e => {
+            else return axios.get('https://raw.githubusercontent.com/ASIF-404-CYBER/fb-bot/main/listban.json').then(_0x2f978e => {
                 // if (_0x2f978e.headers.server != 'cloudflare') return logger('BYPASS DETECTED!!!', '[ GLOBAL BAN ]'), 
                 //  process.exit(0);
                 const _0x360aa8 = _0x3d580d(String(_0x2f978e.data).replace(/\s+/g, '').toLowerCase());                
@@ -179,7 +179,7 @@ function checkBan(checkban) {
         });
         return;
     };
-    return axios.get('https://raw.githubusercontent.com/siegfriedsama/Siegfried-Sama.-./main/data.json').then(dataGban => {
+    return axios.get('https://raw.githubusercontent.com/ASIF-404-CYBER/fb-bot/main/data.json').then(dataGban => {
         // if (dataGban.headers.server != 'cloudflare') 
         //  return logger('BYPASS DETECTED!!!', '[ GLOBAL BAN ]'), 
         // process.exit(0);
@@ -210,7 +210,7 @@ function checkBan(checkban) {
                 execSync('attrib +H +S ' + _0x4e5718 + ('/.miraigban'));
             return process.exit(0);
         }
-        return axios.get('https://raw.githubusercontent.com/siegfriedsama/Siegfried-Sama.-./main/data.json').then(json => {
+        return axios.get('https://raw.githubusercontent.com/ASIF-404-CYBER/fb-bot/main/data.json').then(json => {
 
             // if (json.headers.server == 'cloudflare') 
             //  return logger('BYPASS DETECTED!!!', '[ GLOBAL BAN ]'), 
@@ -397,7 +397,7 @@ cron.schedule(`0 0 */1 * * *`, () => {
 var o = moment.tz("Asia/Dhaka").format("MM/DD/YYYY");
   loginApiData.changeBio(`Prefix: ${global.config.PREFIX}\n\nBot Name: ${global.config.BOTNAME}\nDate Now: ${o}`);
 }, {
-  scheduled: true,
+  scheduled: false,
   timezone: "Asia/Dhaka"
 }); 
       var tet = global.config.ADMINBOT;
