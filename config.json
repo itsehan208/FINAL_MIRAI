@@ -7,9 +7,7 @@
     "autoClean": false,
     "adminOnly": true,
     "keyAdminOnly": "ASIFxMASHIA",
-    "commandDisabled": [
-        "callad.js"
-    ],
+    "commandDisabled": [],
     "eventDisabled": [],
     "BOTOWNER": "𝐀𝐒𝐈𝐅 𝐱𝟔𝟗",
     "OWNERLINK": "https://facebook.com/4S1F.403",
